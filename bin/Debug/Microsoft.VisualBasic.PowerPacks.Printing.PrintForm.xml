@@ -1,0 +1,94 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Microsoft.VisualBasic.PowerPacks.Printing.PrintForm
+</name>
+</assembly>
+<members>
+<member name="F:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.PrintOption.CompatibleModeClientAreaOnly">
+	<summary>
+ Prints the currently visible client area only using the compatible method.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.PrintOption.CompatibleModeFullWindow">
+	<summary>
+ Prints the currently visible form including title bar and borders using the compatible method.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.PrintOption.ClientAreaOnly">
+	<summary>
+ Prints the currently visible client area only.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.PrintOption.FullWindow">
+	<summary>
+ Prints the currently visible form including title bar and borders.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.PrintOption.Scrollable">
+	<summary>
+ Prints the full client area including areas scrolled out of view.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.PrintOption">
+	<summary>
+ Specifies which portions of a Windows Form is printed and how the image is captured. 
+ </summary>
+	<remarks></remarks>
+</member><member name="E:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.BeginPrint">
+	<summary>
+ Occurs when the Print method is called and before the first page of the document prints.
+ </summary>
+</member><member name="E:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.EndPrint">
+	<summary>
+ Occurs when the last page of the document has printed.
+ </summary>
+</member><member name="E:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.QueryPageSettings">
+	<summary>
+ Occurs immediately before each PrintPage event.
+ </summary>
+</member><member name="P:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.Form">
+	<summary>
+ Returns or sets the form that is printed
+ </summary>
+</member><member name="P:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.PrintAction">
+	<summary>
+ Returns or sets a value that determines if the Print method prints to the printer, file or the PrintPreview component
+ </summary>
+</member><member name="P:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.PrintFileName">
+	<summary>
+ Returns or sets the filename of the file to print to (System.Drawing.Printing.PrinterSettings.PrintFileName).
+ </summary>
+</member><member name="P:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.PrinterSettings">
+	<summary>
+ Returns or sets PrintSettings for the underlying PrintDocument's (System.Drawing.Printing.PrinterSettings).
+ </summary>
+</member><member name="M:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.Print">
+	<summary>
+ Prints the visible client area of the top most window.
+ </summary>
+</member><member name="M:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.Print(System.Windows.Forms.Form,Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.PrintOption)">
+	<summary>
+ Prints the specified Windows Form using the specified printing options.
+ </summary>
+	<param name="printForm">The form to be printed</param>
+	<param name="printFormOption">Specifies how the form will be printed.</param>
+</member><member name="M:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.OnBeginPrint(System.Drawing.Printing.PrintEventArgs)">
+	<summary>
+ Raises the System.Drawing.Printing.PrintDocument.BeginPrint event. 
+ It is called after the System.Drawing.Printing.PrintDocument.Print method is called and before the first page of the document prints.
+ </summary>
+</member><member name="M:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.OnEndPrint(System.Drawing.Printing.PrintEventArgs)">
+	<summary>
+ Raises the System.Drawing.Printing.PrintDocument.EndPrint event.
+ It is called when the last page of the document has printed.
+ </summary>
+</member><member name="M:Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.OnQueryPageSettings(System.Drawing.Printing.QueryPageSettingsEventArgs)">
+	<summary>
+ Raises the System.Drawing.Printing.PrintDocument.QueryPageSettings event.
+ It is called immediately before each System.Drawing.Printing.PrintDocument.PrintPage event.
+ </summary>
+</member>
+</members>
+</doc>
